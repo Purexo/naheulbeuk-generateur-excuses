@@ -118,7 +118,7 @@ var PARTIE_PHRASE_TIRAGE = [
     'est apparue comme par magie',
     'venait de votre cousin',
     'avait été abandonnée',
-    'était suscpecte',
+    'était suspecte',
     'n\'aurait pas dû se trouver là',
     'avait justement l\'air fourbe',
     'était dans l\'ombre',

@@ -1,0 +1,44 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    position: absolute;
+    top: 0px;
+    font-size: 1rem;
+}
+
+header h1 {
+    font-size: 1.5rem;
+}
+
+header {
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+article h3 {
+    font-size: 1.4rem;
+}
+
+#excuse {
+    font-size: 2em;
+    border: solid 2px #999;
+    border-radius: 0.25em;
+    flex: 1;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+#excuse p {
+    margin: 0px;
+}
+
+@media (max-width: 544px) {
+    #excuse {
+        font-size: 1.5em;
+    }
+}

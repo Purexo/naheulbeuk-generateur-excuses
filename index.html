@@ -8,13 +8,14 @@
     <link rel="stylesheet" crossorigin="anonymous"
           href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
           integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ">
+    <link rel="stylesheet" href="static/css/main.css">
 </head>
-<body>
-<section class="container-fluid text-center">
-    <header>
-        <h1>Générateur d'excuse Naheulbeux</h1>
-    </header>
+<body class="container-fluid d-flex flex-column justify-content-between text-center">
 
+<section class="p-2">
+    <header>
+        <h1>Générateur d'excuse Naheulbeuk</h1>
+    </header>
     <article>
         <h3>Alors, misérable ?!</h3>
         <h3>Tu as encore échoué !</h3>
@@ -24,36 +25,43 @@
             <br />
             <button id="generate" class="btn btn-primary">Générer une excuse de gros sac :3</button>
         </p>
-
-        <p id="excuse">
-            Je suis désolé maître... c'est parce que
-            <strong id="tirage-1"></strong>
-            <strong id="tirage-2"></strong>
-            dans
-            <strong id="tirage-3"></strong>
-            ... et tout ça ... à cause
-            <strong id="tirage-4"></strong>
-            <strong id="tirage-5"></strong>
-            qui
-            <strong id="tirage-6"></strong>
-            ... donc c'est pas ma faute !
-        </p>
     </article>
-
-    <footer class="d-flex flex-row-reverse">
-        <ul class="nav">
-            <li class="nav-item">
-                <a href="http://www.naheulbeuk.com/"
-                   class="nav-link" target="_blank">Naheulbeuk</a>
-            </li>
-            <li class="nav-item">
-                <a href="http://www.naheulbeuk.com/jdr-docs/Tableau-GenerateurExcuses-HIRES.jpg"
-                   class="nav-link active" target="_blank">Source</a>
-            </li>
-        </ul>
-    </footer>
 </section>
-<script src="data.js"
+
+<section id="excuse" class="p-2 align-self-stretch d-flex flex-column justify-content-center">
+    <p class="p-2">
+        Je suis désolé maître... c'est parce que
+        <strong id="tirage-1"></strong>
+        <strong id="tirage-2"></strong>
+        dans
+        <strong id="tirage-3"></strong>
+        ... et tout ça ... à cause
+        <strong id="tirage-4"></strong>
+        <strong id="tirage-5"></strong>
+        qui
+        <strong id="tirage-6"></strong>
+        ... donc c'est pas ma faute&nbsp;!
+    </p>
+</section>
+
+<footer class="d-flex flex-row-reverse p-2">
+    <ul class="nav">
+        <li class="nav-item">
+            <a href="https://github.com/Purexo/naheulbeuk-generateur-excuses"
+               class="nav-link" target="_blank">Github</a>
+        </li>
+        <li class="nav-item">
+            <a href="http://www.naheulbeuk.com/"
+               class="nav-link" target="_blank">Naheulbeuk</a>
+        </li>
+        <li class="nav-item">
+            <a href="http://www.naheulbeuk.com/jdr-docs/Tableau-GenerateurExcuses-HIRES.jpg"
+               class="nav-link active" target="_blank">Source</a>
+        </li>
+    </ul>
+</footer>
+
+<script src="static/js/data.js"
         async
         defer></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"
@@ -65,7 +73,7 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
         integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
         crossorigin="anonymous"></script>
-<script src="main.js"
+<script src="static/js/main.js"
         defer></script>
 </body>
 </html>
