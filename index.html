@@ -22,13 +22,15 @@
         <h3>Que s'est-il passé cette fois ?</h3>
 
         <p>
-            <br />
-            <button id="generate" class="btn btn-primary">Générer une excuse de gros sac :3</button>
+            <br>
+            <button id="generate" class="btn btn-primary" data-show="#excuse">Générer une excuse de gros sac :3</button>
+
+            <noscript><br>Cette application ne fonctionnera pas sans Javascript, merci de l'activer ;-)</noscript>
         </p>
     </article>
 </section>
 
-<section id="excuse" class="p-2 align-self-stretch d-flex flex-column justify-content-center">
+<section id="excuse" class="p-2 align-self-stretch d-flex flex-column justify-content-center" style="display: none !important;">
     <p class="p-2">
         Je suis désolé maître... c'est parce que
         <strong id="tirage-1"></strong>

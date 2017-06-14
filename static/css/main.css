@@ -3,6 +3,7 @@ html, body{
     padding: 0;
     width: 100%;
     height: 100%;
+    background-color: #99806c;
 }
 
 body {
@@ -24,9 +25,26 @@ article h3 {
     font-size: 1.4rem;
 }
 
+.btn-primary {
+    color: #000;
+    background-color: #AA7459;
+    border-color: #624131;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    color: #000;
+    background-color: #895d47;
+    border-color: #624131;
+}
+
+.btn-primary:focus {
+    box-shadow: 0 0 0 2px rgba(137, 93, 71, 0.5);
+}
+
 #excuse {
     font-size: 2em;
-    border: solid 2px #999;
+    border: solid 2px #222;
     border-radius: 0.25em;
     flex: 1;
     margin-top: 2em;
@@ -41,4 +59,18 @@ article h3 {
     #excuse {
         font-size: 1.5em;
     }
+}
+
+footer .nav {
+    color: #000;
+    background-color: #AA7459;
+    border-color: #624131;
+}
+
+footer .nav a {
+    color: #000;
+}
+
+footer .nav li:hover {
+    background-color: #895d47;
 }
