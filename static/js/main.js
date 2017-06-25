@@ -3,6 +3,8 @@
  */
 $(function () {
   var $excuse = $('#excuse');
+  $excuse.removeAttr('style');
+  
   var $button = $('#generate');
   
   var $fills = [1,2,3,4,5,6].reduce(function (prev, value) {
